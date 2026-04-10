@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --green-dark: #1a3d0e;
+  --green-primary: #2b5e1a;
+  --green-medium: #3a7a22;
+  --green-light: #4a9030;
+  --orange-primary: #e07b2a;
+  --orange-light: #f4a443;
+  --orange-badge: #e8832e;
+  --teal-badge: #2e9ea8;
+  --bg-cream: #fafaf7;
+  --bg-white: #ffffff;
+  --text-dark: #1a1a1a;
+  --text-medium: #4a4a4a;
+  --text-light: #777;
+  --border-light: #e8e8e0;
+  --star-gold: #f5a623;
+  --card-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --card-hover-shadow: 0 8px 32px rgba(0,0,0,0.14);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  min-height: 100vh;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+select {
+  font-family: 'Inter', sans-serif;
+}
